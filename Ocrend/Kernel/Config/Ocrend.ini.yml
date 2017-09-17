@@ -7,10 +7,10 @@
 
 # Conexión con la base de datos principal
 database:
-  host: localhost
+  host: 192.168.1.25
   user: root
-  pass: 
-  name: ocrend
+  pass: 1234
+  name: ocrend_framework
   port: 1521
   protocol: TCP
   motor: mysql
@@ -38,7 +38,7 @@ site:
   author: Brayan Narváez
   author_email: prinick@ocrend.com
   timezone: America/Caracas
-  url: http://localhost/Ocrend-Framework/
+  url: http://ocrend-framework.dev/
   router:
-    path: localhost/Ocrend-Framework/
+    path: ocrend-framework.dev/
     protocol: http

@@ -221,7 +221,7 @@ final class Router implements IRouter {
 
         } else {
             $controller = 'errorController';
-        }  
+        }
 
         $controller = 'app\\controllers\\' . $controller;    
 
